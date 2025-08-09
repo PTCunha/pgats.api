@@ -65,6 +65,7 @@ module.exports = {
     },
     '/transfer': {
       post: {
+        operationId: 'post_transfer',
         summary: 'Transferência de valores',
         requestBody: {
           required: true,
